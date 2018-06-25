@@ -20,6 +20,7 @@ let compare = function (playerChoice, computerChoice) {
     console.log("Player chooses--", playerChoice, "Computer chooses--", computerChoice);
     if (playerChoice === computerChoice) {
         alert("The result is a tie!");
+        return;
     };
     if (playerChoice === "rock") {
         if (computerChoice === "scissors") {
