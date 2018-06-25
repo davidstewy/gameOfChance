@@ -17,7 +17,7 @@ if (randomNumber1to3 == 3) {
 let playerChoice = prompt("Choose your weapon. Will it be 'paper', 'rock', or 'scissors'?");
 
 let compare = function (playerChoice, computerChoice) {
-    console.log(playerChoice, computerChoice);
+    console.log("Player chooses--", playerChoice, "Computer chooses--", computerChoice);
     if (playerChoice === computerChoice) {
         alert("The result is a tie!");
     };
